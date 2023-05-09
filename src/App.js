@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/index.css';
+import Ecommerce from './components/Ecommerce.js';
 
 function App() {
+  let title = 'Ecommerce';
+  let link = 'Contact us';
+  const pages = [
+    
+  ]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <main>
+    <div className="container">
+      
     </div>
+    </main>
   );
 }
 
