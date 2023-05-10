@@ -1,9 +1,8 @@
 import React from 'react'
 
-function Buttons() {
-  return (
-    <div>Buttons</div>
-  )
+function Buttons({ btnClassName, content }) {
+  return <button className={ ` btn ${btnClassName}`}>{content}</button>
+  
 }
 
 export default Buttons

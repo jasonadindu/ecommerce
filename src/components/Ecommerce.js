@@ -1,8 +1,13 @@
-import React from 'react'
 
-function Ecommerce() {
+function Ecommerce(props) {
   return (
-    <div>Ecommerce</div>
+    <div className="grid lg-5">
+        {props.pages.map(page => (
+            <figure key={page.id}>
+                <img alt={page.title} src={page.poster}/>
+            </figure>
+        ))}
+    </div>
   )
 }
 
