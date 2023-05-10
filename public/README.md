@@ -10,7 +10,7 @@ Click [here](https://jasonadindu.github.io/ecommerce/) to Subscribe
 <br />
 
 
-![](./assets/img/conectarimg.png)
+![](.//public/img/ecommerce.png)
 
 <br>
 <br>
